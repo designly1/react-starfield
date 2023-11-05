@@ -1,6 +1,6 @@
 {
   "name": "react-starfield",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A nifty little starfield component for React",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,10 @@
     "dist/**/*.mjs*",
     "dist/**/*.d*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/designly1/react-starfield"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsup"
