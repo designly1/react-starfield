@@ -1,0 +1,32 @@
+{
+  "name": "react-starfield",
+  "version": "1.0.2",
+  "description": "A nifty little starfield component for React",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*.js*",
+    "dist/**/*.mjs*",
+    "dist/**/*.d*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "author": {
+    "name": "Jay Simons",
+    "url": "https://jay.designly.biz"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "next": ">=13.4",
+    "react": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@types/react": "^18.2.35",
+    "@types/react-dom": "^18.2.14",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
